@@ -1,0 +1,23 @@
+h1 {
+    margin-bottom: 5rem;
+}
+
+.counterButtton {
+    margin-left: 2rem;
+    width: 7rem;    
+}
+
+.add {
+    background-color: green;
+    border-color: white;
+}
+
+.restore {
+    background-color: blue;
+    border-color: white;
+}
+
+.subtract {
+    background-color: rgb(179, 20, 20);
+    border-color: white;
+}

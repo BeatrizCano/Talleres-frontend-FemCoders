@@ -1,0 +1,12 @@
+$backgroundColor: burlywood;
+$titleColor: crimson;
+$TextColorOne: darkorchid;
+$TextColortwo: green;
+
+@mixin section1() {
+  background-color: blue;
+  color: yellow;
+  border: solid 1px yellow;
+  text-align: center;
+  padding: 4px;
+}

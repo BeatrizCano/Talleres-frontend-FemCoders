@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Taller JS</title>
+</head>
+<body>
+  
+  <p id="parrafo"></p>
+  <button id="buttonlogIn">Log In</button>
+  <h2 id="h2Practic">Práctica de html</h2>
+  <h3 id="ocultTitle">Esto era un mensaje oculto. Ahora no</h3>
+  <!--Formulario-->
+  <form action="buscar.php" name="elFormulario" id="miFormulario" method="post">
+    <p>
+      <label for="busqueda">Buscar por:</label>
+      <input id="busqueda" name="busqueda" type="text" value="" />
+      <input id="submit" type="submit" value="Buscar" />
+    </p>
+  </form>
+  <!--Tabla-->
+  <input type="button" value="Genera una tabla" onclick="creaTabla()">
+  <input type="button" value="Imprimir profes" onclick="generarTabla()">
+
+  <script src="script.js"></script>
+</body>
+</html>

@@ -1,0 +1,15 @@
+
+@import 'variables';
+
+main{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    color: $TextColorOne;
+    #section-one{
+        @include section1();
+    }
+    #section-two{
+        color: $TextColortwo;
+    }
+}
